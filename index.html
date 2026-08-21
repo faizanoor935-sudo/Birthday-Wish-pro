@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<video id="music" src="song/song.mp4" loop playsinline></video>
+
+<div class="hearts"></div>
+
+<!-- 1. START -->
+<section class="page active" id="page1">
+    <div class="content">
+        <div class="emoji">🎂</div>
+        <h1>Happy Birthday</h1>
+        <h2>My Love ❤️</h2>
+        <p>Today is all about you...</p>
+        <button onclick="startProject()">Tap to Continue 💕</button>
+    </div>
+</section>
+
+
+<!-- 2. BALLOONS -->
+<section class="page" id="page2">
+    <div class="content">
+        <h1>Let's Make A Wish 🎈</h1>
+        <p class="subtitle">Pop all the balloons!</p>
+
+        <div class="balloons">
+            <div class="balloon" onclick="popBalloon(this)">🎈</div>
+            <div class="balloon" onclick="popBalloon(this)">🎈</div>
+            <div class="balloon" onclick="popBalloon(this)">🎈</div>
+            <div class="balloon" onclick="popBalloon(this)">🎈</div>
+            <div class="balloon" onclick="popBalloon(this)">🎈</div>
+            <div class="balloon" onclick="popBalloon(this)">🎈</div>
+        </div>
+
+        <p class="counter">Balloons: <span id="count">0</span>/6</p>
+
+        <button id="balloonNext" class="hidden" onclick="showPage(3)">
+            Continue the Magic ✨
+        </button>
+    </div>
+</section>
+
+
+<!-- 3. LETTER -->
+<section class="page" id="page3">
+    <div class="letter-box">
+
+        <div class="letter-icon">💌</div>
+
+        <h1>A Letter For You</h1>
+
+        <div class="letter">
+
+            <p>Youuu areeee not just myy favrrt person youuu are the owner of my ❤️🫠🫂</p>
+
+            <p>
+                mujhy duniya Bhar ki 🌷 khushiyan nhi chiye 🥂🙌,
+                mujhy har Khushi m Tum 😍 aur tumhra sath chiye 🫶🦋
+            </p>
+
+            <p>
+                Acha lagta hai har raat tere khayalon mai kho jana,
+                Jaise dur ho ke bhi teri baahon mai so jana..!! 🫠🫠
+            </p>
+
+            <p>
+                تم صرف میرے ہو۔—<br>
+                Everything can be shared buttt nottttt youuuuu,
+                youu are onlyyy mineeee !!&gt;3
+            </p>
+
+            <p>🎀🤍🥺🫂🫀</p>
+
+            <p>🎀"میں تمہارے ساتھ رہنا چاہتی ہوں۔۔"🫠🫀</p>
+
+            <p>
+                Phir chahe ghalti mujh se ho ya tum se, main laroon ya tum
+                Main kaho ke mujhe nahi rehna, ya phir tum kaho Mere saath
+                nahi rehna...!! 🥺🗣️
+            </p>
+
+            <p>
+                Halaat mujhe par " مشکل " ho ya phir tum par Mujhe tumhare
+                saath rehna hai, khaas kar ke mujhe har tarah Ke halaat mein
+                tumhare saath rehna hai!!
+            </p>
+
+            <p>😭👊💋🫂🫀🫶</p>
+
+            <p>
+                🌷✨آپ ایک بہترین مرد ہو۔۔🫶
+            </p>
+
+            <p>
+                Yaqeen janiye main apke Sath jeena chahti hoon apke dukh,
+                apki Takleef, apke dard, apki " اداسی " har cheez mein apke
+                saath shareek hona chahti hoon...!!
+            </p>
+
+            <p>🫠🫶</p>
+
+            <p>
+                Ap nahi jaante ke meri " خیالی " zindagi Apke saath kitni
+                pyaari hai aur mujhe ap Se kitni mohabbat hai,..!!
+            </p>
+
+            <p>
+                (be-shak ap behtareen mard hain.)
+            </p>
+
+            <p>🥺🫂🫀💋🦢😚🌷</p>
+
+            <p>
+                🎀✨تم میرے لئے بہت ضروری ہو۔۔🫠
+            </p>
+
+            <p>
+                Pata nahi kab main itni zyada tum par depend ho gayi ki ab
+                mere har chhote faisle ke peeche tumhara dimaag hoto hai.
+                Subah uthne se lekar raat ko sone tak agar koi achhi ya buri
+                cheez hoti hai toh sabse pehle dil tumhein batane ke liye
+                bhaagta hai...!!
+            </p>
+
+            <p>🥺🫶</p>
+
+            <p>
+                Pehle main apni har " بات " chupakar rakhti thi par ab tumhare
+                samne aate hi dil ke saare darwaze khul jaate hain. Ab halat
+                yeh hai ki agar kisi din tumhari thorii kam baat ho toh aisa
+                lagta hai jaise poore din mein kuch bohot zaroori chhoot gaya hai!!!
+            </p>
+
+            <p>😭🫀🫂💋🦋🕊️</p>
+
+            <p>
+                Mera haath kabhi mat chhorna, kyunki hum un raaston tak aa
+                pohnche hain jahan mohabbat sirf ehsaas nahi balki saanson ki
+                zarurat ban jaati hai. Yahan se agar tum juda hue to shayad
+                main zinda to reh jaun, magar mere andar ki saari roshni
+                bujh jaaye.
+            </p>
+
+            <p>
+                Tumhare saath chalte chalte maine khwabon ko haqeeqat ki tarah
+                mehsoos karna seekha hai. Tumhari awaaz ab mere din ka sukoon
+                aur tumhari khamoshi meri raaton ki bechaini ban chuki hai.
+            </p>
+
+            <p>
+                Isliye mera haath mazbooti se thaame rakhna, kyunki yeh bulandi
+                sirf ishq ki nahi balki aitbaar ki hai jahan se girne wale
+                dobara sambhal nahi paate, aur main tumhare bina bikharna nhi chahti...
+            </p>
+
+            <p>
+                In English we say:<br>
+                I'm very possessive about you 🫠🫀
+            </p>
+
+            <p>
+                But in urdu we say:
+            </p>
+
+            <p>
+                Aap meri soch hain, koi aur apko sochen kiun😭💞<br>
+                Aap meri chahat hain, koi aur apko chahe kiun🥺🎀<br>
+                Aap mera Chand hain, koi aur apko dekhe kiun💗🌙<br>
+                Aap meri Dua hain, koi aur apko mange kiun
+            </p>
+
+            <p>🫂❤️🦢🤌💋✨</p>
+
+            <p>
+                you are mine<br>
+                yes I am jealous.<br>
+                bcz I am not ready to<br>
+                share you with anyone you<br>
+                are mine and always mine
+            </p>
+
+            <p>😭🫂🖤❤️‍🩹🫀</p>
+
+            <p>
+                Mere Pass Wo Alfaaz Hi Nahi Jo<br>
+                Iss Baat Ko Bayan Kar Sake Ki Tum<br>
+                Mere Liye Kya Ho.Bs Tum Wo Shakhs Ho<br>
+                Jis Se Mujhe Be-Panah Mohabbat Hai...
+            </p>
+
+            <p>😭🎀🌙❤️🧸🌷💞</p>
+
+            <p>
+                Wheneverrrr i see myyyy "man"and i feel like
+                "ho sakta hai ik shaks bhipori duniya ho sakta hai"..!!
+            </p>
+
+            <p>😭💖🫂♾️💋🌍💍🖇️</p>
+
+            <p>
+                Mujhe nahi pata future mai kiya hoga par itna pata hai tum
+                meri life ka wo " حصہ " ban chuky hon, jesy me kabhi khoona
+                nahi chahta 🥺 tumhary sath baat karna " میری " aadat ban
+                gaye hai aur tumhari fikar krna mera nature ..!
+            </p>
+
+            <p>😭🤍🫀🫂🫠</p>
+
+            <p>
+                You're myyyyyyyyyyyyyy Favourite notification<br>
+                Favourite person<br>
+                Favourite reason to smile<br>
+                Favourite part of my life<br>
+                Favourite text at 2 am<br>
+                Favourite problem with no solution<br>
+                Favorite good morning text
+            </p>
+
+            <p>🌷😭🕊️🫶🌚🎀</p>
+
+            <p>
+                YOUUUU haveeeeeee nooooooideaaaaaa howwwwwww muchhhh
+                missesssssyouuuu right nowwwww & howwww badlyyyyI wannnaaaaa
+                seeee youuuu and hugg youuuuuYouuuu are myyy everything i
+                Love youuuu sooooomuchhhh foreverrrr &gt;3
+            </p>
+
+            <p>🥺💗🌺🫶🫂✨🌍</p>
+
+            <p>
+                A beautiful line for you<br>
+                Allah tumhe har wo cheez de jismetumhare liakhushi ho,
+                khair ho, Sukoon ho.
+            </p>
+
+            <p>😭🎀🫂🤍🌷</p>
+
+            <p>
+                //Pagal hi sahi🫠🫂par me wo insaan hun jo ap se narazho kr bhi
+                sirf apse he baatkrna chahta hai~//
+            </p>
+
+            <p>🤌😭🫂🤍💍🌷</p>
+
+            <p>
+                aik bat bolo.koshish to yahi rahe gi ke apka " دل "kabhi na
+                " دکھاؤں " agar kabhi ghalti hobhi gaii toh apna bchaa samjh
+                Karmaff kardenaa..🤌🫠❤️🫂🫶🔐
+            </p>
+
+            <p>
+                A special message for Youu🎀💗(🦢) 💌👀
+            </p>
+
+            <p>
+                If your busy, I'll wait &gt;3 🌷<br>
+                If your heart feel heavy, I'll listen.<br>
+                If you need A hand I'll Help No mattarwhat life brings&gt;🤍🔐🌷🫀🌙🫂
+            </p>
+
+            <p>
+                Remember this:I'm here always For Youuu&gt;🫂💗💋💍😭✨🌷
+            </p>
+
+            <p>
+                😭💖🤌💋💍.//Whenever i see my man I feel like
+                "Is pagal ke bagair mai Nhi reh saktii"🫠💖🦢🫧
+            </p>
+
+            <p class="signature">
+                Forever yours,<br>
+                <strong>Faiza ❤️</strong>
+            </p>
+
+        </div>
+
+        <button onclick="showPage(4)">
+            One More Thing 💕
+        </button>
+
+    </div>
+</section>
+
+
+<!-- 4. REASONS -->
+<section class="page" id="page4">
+    <div class="content">
+
+        <div class="heart-big">❤️</div>
+
+        <h1>Reasons I Love You</h1>
+
+        <p class="subtitle">
+            Tap the button to discover one...
+        </p>
+
+        <div id="reason" class="reason-box">
+            You're my favorite person in the whole world. ❤️
+        </div>
+
+        <button onclick="newReason()">Tell Me Another 💕</button>
+
+        <button class="secondary" onclick="showPage(5)">
+            There's More For You ✨
+        </button>
+
+    </div>
+</section>
+
+
+<!-- 5. EXTRA MESSAGE -->
+<section class="page" id="page5">
+    <div class="content">
+
+        <div class="heart-big">🫀</div>
+
+        <h1>Just One More Thing...</h1>
+
+        <div class="extra-message">
+            <p>
+                No matter what happens, no matter how difficult life gets,
+                I want you to remember that there is someone who genuinely
+                wants to see you happy. 🥺❤️
+            </p>
+
+            <p>
+                You are my favourite person, my favourite notification,
+                my favourite thought and my favourite part of every day. 🫶
+            </p>
+
+            <p>
+                And yes... I still want you to be mine forever. 🫠🫂❤️
+            </p>
+        </div>
+
+        <button onclick="showPage(6)">
+            Now There's A Birthday Cake 🎂
+        </button>
+
+    </div>
+</section>
+
+
+<!-- 6. CAKE -->
+<section class="page" id="page6">
+    <div class="content">
+
+        <h1>Make A Wish 🎂</h1>
+
+        <p>Close your eyes and make your birthday wish... ✨</p>
+
+        <div class="cake">
+
+            <div class="candle candle1">
+                <span class="flame">🔥</span>
+            </div>
+
+            <div class="candle candle2">
+                <span class="flame">🔥</span>
+            </div>
+
+            <div class="candle candle3">
+                <span class="flame">🔥</span>
+            </div>
+
+            <div class="cake-top"></div>
+            <div class="cake-middle"></div>
+            <div class="cake-bottom"></div>
+
+        </div>
+
+        <p id="wishText">
+            Make your wish... then blow the candles! 🕯️
+        </p>
+
+        <button onclick="blowCandles()">
+            Blow The Candles 🕯️
+        </button>
+
+        <button id="finalButton" class="hidden" onclick="showPage(7)">
+            Your Final Surprise ❤️
+        </button>
+
+    </div>
+</section>
+
+
+<!-- 7. FINAL -->
+<section class="page final-page" id="page7">
+    <div class="content">
+
+        <div class="fireworks">✨🎉✨</div>
+
+        <h1>Happy Birthday</h1>
+
+        <h2>My Beautiful Love ❤️</h2>
+
+        <div class="big-heart">❤️</div>
+
+        <p class="final-message">
+            You deserve all the love, happiness, peace and beautiful
+            moments in this world.
+        </p>
+
+        <p class="final-message">
+            And from the bottom of my heart...
+        </p>
+
+        <h3>
+            I Love You Forever & Always, My Love ❤️
+        </h3>
+
+        <p class="faiza">
+            — Faiza 🫂💋🫀
+        </p>
+
+        <button onclick="restart()">
+            Experience Again 🔄
+        </button>
+
+    </div>
+</section>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
